@@ -46,7 +46,7 @@ public class PdfCheckGraph extends PDFStreamEngine {
        // String fileName = "D:\\heidelbergce.pdf";
         try {PDDocument doc_ = new PDDocument();
             document = PDDocument.load(new File(fileName));
-            SaveImagesInPdf printer = new SaveImagesInPdf();
+            PdfCheckGraph printer = new PdfCheckGraph();
             int pageNum = 0;
             for (PDPage page : document.getPages()) {
                     PDPage updatedPage = page;
