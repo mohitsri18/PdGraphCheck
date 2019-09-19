@@ -64,7 +64,7 @@ public class PdfCheckGraph extends PDFStreamEngine {
 
                    //Writing the image to a file
                    ImageIO.write(image, "JPEG", new File("D:/ExtractedImages/Page"+pageNum+".jpg"));
-                   System.out.println("Page is written to Image : "+ pageNum);*/
+                   //System.out.println("Page is written to Image : "+ pageNum);*/
 
 
 
