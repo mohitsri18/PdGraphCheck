@@ -31,7 +31,7 @@ import org.apache.pdfbox.pdmodel.graphics.image.PDImageXObject;
 import org.apache.pdfbox.rendering.PDFRenderer;
 import org.apache.pdfbox.text.PDFTextStripper;
 
-public class SaveImagesInPdf extends PDFStreamEngine {
+public class PdfCheckGraph extends PDFStreamEngine {
 
 
     public int imageNumber = 1;
